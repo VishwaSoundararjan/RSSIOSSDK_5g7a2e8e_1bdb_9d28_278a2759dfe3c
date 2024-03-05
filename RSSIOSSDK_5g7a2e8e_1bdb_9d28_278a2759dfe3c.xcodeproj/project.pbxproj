@@ -17,6 +17,7 @@
 		27E37B572B97277000D8DD40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E37B552B97277000D8DD40 /* Main.storyboard */; };
 		27E37B592B97277200D8DD40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E37B582B97277200D8DD40 /* Assets.xcassets */; };
 		27E37B5C2B97277200D8DD40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E37B5A2B97277200D8DD40 /* LaunchScreen.storyboard */; };
+		27E37B622B972AC900D8DD40 /* RssLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E37B612B972AC900D8DD40 /* RssLibrary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		27E37B582B97277200D8DD40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27E37B5B2B97277200D8DD40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27E37B5D2B97277200D8DD40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27E37B612B972AC900D8DD40 /* RssLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RssLibrary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				27E37B322B97240D00D8DD40 /* RSSIOSSDK_5g7a2e8e_1bdb_9d28_278a2759dfe3c.h */,
 				27E37B332B97240D00D8DD40 /* RSSIOSSDK_5g7a2e8e_1bdb_9d28_278a2759dfe3c.docc */,
+				27E37B612B972AC900D8DD40 /* RssLibrary.swift */,
 			);
 			path = RSSIOSSDK_5g7a2e8e_1bdb_9d28_278a2759dfe3c;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27E37B622B972AC900D8DD40 /* RssLibrary.swift in Sources */,
 				27E37B342B97240D00D8DD40 /* RSSIOSSDK_5g7a2e8e_1bdb_9d28_278a2759dfe3c.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -506,6 +510,7 @@
 		27E37B472B97240D00D8DD40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9G6WTL8BCF;
@@ -522,6 +527,7 @@
 		27E37B482B97240D00D8DD40 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9G6WTL8BCF;
