@@ -8,10 +8,9 @@
 import Foundation
 
 public final class RssLibrary {
-
     
     public func getVersion() -> String {
-        return "Ios library version :: 1.0.0"
+        return "iOS library version :: 1.0.0"
     }
     
 }
